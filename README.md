@@ -98,5 +98,5 @@ npx nodemon index
 We thank our faculty and institution for their continuous support.
 
 ## ⭐ Support
-If you like this project, give it a ⭐ on GitHub!
+# If you like this project, give it a ⭐ on GitHub!
 =======
