@@ -1,6 +1,6 @@
-# 🧪 An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
+## 🧪 An End-to-End Laboratory Report Analysis & Personalized Diet Recommendation System
 
-## 📌 Overview
+### 📌 Overview
 This project is an intelligent healthcare system that analyzes laboratory reports and generates personalized diet recommendations.
 
 It converts unstructured lab reports into:
@@ -36,7 +36,7 @@ It converts unstructured lab reports into:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
-## ▶️ Running the Project
+### ▶️ Running the Project
 ### 🔸 Step 1: Run Frontend
 ```bash
 cd frontend
@@ -98,5 +98,5 @@ npx nodemon index
 We thank our faculty and institution for their continuous support.
 
 ## ⭐ Support
-# If you like this project, give it a ⭐ on GitHub!
-=======
+### If you like this project, give it a ⭐ on GitHub!
+
