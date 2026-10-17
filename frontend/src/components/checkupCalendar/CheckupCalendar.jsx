@@ -96,7 +96,7 @@ const CheckupCalendar = () => {
         startAccessor="start"
         endAccessor="end"
         style={{ height: "80vh" }}
-        selectable // Allows you to click and drag to select a slot
+        selectable 
         onSelectSlot={handleSelectSlot}
         onSelectEvent={handleSelectEvent}
         view={view}
