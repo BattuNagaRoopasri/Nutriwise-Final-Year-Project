@@ -1,7 +1,6 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import ProgressBar from '../components/toast/ProgressBar';
 import './ToastContext.css';
-
 const ToastContext = createContext();
 
 export const useToast = () => {
