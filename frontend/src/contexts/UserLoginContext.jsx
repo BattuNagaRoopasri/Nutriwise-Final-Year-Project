@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
-
 const API_BASE_URL = "http://localhost:5000/api/auth";
 
 // Creating context
