@@ -257,7 +257,6 @@ const UserDetailsForm = () => {
               </select>
             </div>
           </fieldset>
-
           <button type="submit" className="nutriwise-button">Save My Details 💾</button>
         </form>
 
