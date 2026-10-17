@@ -230,7 +230,6 @@ input[name="foodAllergies"]:focus {
     box-shadow: 0 4px 10px rgba(40, 167, 69, 0.4);
     transform: scale(1.05);
 }
-
 .nutriwise-button::after {
     content: '';
     position: absolute;
