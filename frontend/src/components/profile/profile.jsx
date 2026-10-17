@@ -3,7 +3,6 @@ import { useAuth } from "../../contexts/UserLoginContext";
 import api from "../../api/axios";
 import { useNavigate } from "react-router-dom";
 import "./Profile.css";
-
 const Profile = () => {
   const { userId, currentUser, isAuthenticated } = useAuth();
   const navigate = useNavigate();
