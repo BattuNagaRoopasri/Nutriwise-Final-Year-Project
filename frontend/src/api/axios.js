@@ -33,8 +33,6 @@ api.interceptors.response.use(
         );
 
         const newToken = refreshRes.data.token;
-
-        // ✅ Update everywhere
         localStorage.setItem("userToken", newToken);
 
         // ✅ Retry original request
