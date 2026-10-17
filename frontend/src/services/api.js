@@ -4,7 +4,6 @@ import api from "../api/axios";
 export const fetchFriends = (userId) => {
   return api.get(`/friendships/friends/${userId}`);
 };
-
 export const fetchReceivedRequests = (userId) => {
   return api.get(`/friendships/requests/received/${userId}`);
 };
