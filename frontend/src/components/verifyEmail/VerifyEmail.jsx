@@ -43,7 +43,6 @@ const VerifyEmail = () => {
           placeholder="Enter OTP"
           maxLength={6}
         />
-
         <button onClick={verifyOTP}>Verify & Continue</button>
       </div>
     </div>
