@@ -88,7 +88,6 @@ const CalendarStreak = ({ completedDates = [] }) => {
                     );
                 })}
             </div>
-
             <div className="streak-info">
                 <span className="streak-count">{calculateStreak()}</span>
                 <span className="streak-label">Total Days Completed</span>
