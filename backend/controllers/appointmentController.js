@@ -30,7 +30,6 @@ exports.createAppointment = async (req, res) => {
     res.status(400).json({ message: err.message });
   }
 };
-
 // Delete an appointment
 exports.deleteAppointment = async (req, res) => {
   try {
