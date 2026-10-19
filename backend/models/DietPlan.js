@@ -8,5 +8,4 @@ const DietPlanSchema = new mongoose.Schema({
 
   createdAt: { type: Date, default: Date.now },
 });
-
 module.exports = mongoose.model("DietPlan", DietPlanSchema);
