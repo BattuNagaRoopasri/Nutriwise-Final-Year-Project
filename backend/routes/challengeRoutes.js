@@ -244,7 +244,6 @@ router.get("/history", protect, async (req, res) => {
                 dates.add(record.date);
             }
         });
-
         res.json({ dates: Array.from(dates) });
 
     } catch (error) {
