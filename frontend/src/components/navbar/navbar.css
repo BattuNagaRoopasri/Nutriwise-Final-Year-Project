@@ -185,8 +185,7 @@
   .nav-actions {
     flex-direction: column;
     gap: 0.5rem;
-  }
-  
+  } 
   .nav-btn {
     padding: 0.5rem 0.75rem;
     font-size: 0.85rem;
