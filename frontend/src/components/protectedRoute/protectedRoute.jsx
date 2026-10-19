@@ -13,7 +13,6 @@ const ProtectedRoute = () => {
   if (!isAuthenticated) {
     return <Navigate to="/login" replace />;
   }
-
   return (
     <div className="app-container">
       <Header />
