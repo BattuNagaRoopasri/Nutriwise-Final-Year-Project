@@ -88,7 +88,6 @@ router.get('/:id', protect, async (req, res) => {
         if (report.uploadedBy.toString() !== req.user.id) {
             return res.status(403).json({ msg: 'Access denied.' });
         }
-
         res.json(report);
     } catch (err) {
         console.error('Error fetching report:', err.message);
