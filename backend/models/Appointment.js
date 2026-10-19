@@ -24,6 +24,5 @@ const AppointmentSchema = new mongoose.Schema({
     required: true,
   },
 });
-
 const Appointment = mongoose.model("Appointment", AppointmentSchema);
 module.exports = Appointment;
