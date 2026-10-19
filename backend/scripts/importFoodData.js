@@ -15,7 +15,6 @@ async function importData() {
 
     await Food.deleteMany({});
     await Food.insertMany(rows);
-
     console.log("Food dataset imported successfully!");
     process.exit();
   } catch (err) {
