@@ -29,7 +29,6 @@ router.get("/process/:id", protect, async (req, res) => {
 
     // ---- 2️⃣ Save extracted values to DB ----
     report.values = extractedValues;
-
     // ---- 3️⃣ Generate Summary Using Groq ----
     const aiSummary = await generateMedicalAnalysis(extractedValues);
     report.analysis = aiSummary;
