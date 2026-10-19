@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 // Import all components
 import Home from "./components/home/home";
 import Login from "./components/login/login";
@@ -15,7 +16,7 @@ import CheckupCalendar from "./components/checkupCalendar/CheckupCalendar.jsx";
 import VerifyEmail from "./components/verifyEmail/VerifyEmail.jsx";
 import GenerateDietPlan from "./components/generateDietPlan/GenerateDietPlan.jsx";
 import ReportViewer from "./components/reportViewer/ReportViewer.jsx";
-import Challenges from "./components/challenges/Challenges.jsx";
+import Challenges from "./components/challenges/challenges.jsx";
 import  DietPlanWeeklyPage from "./components/weeklyPlan/weeklyDietPlan.jsx";
 //Contexts
 import { UserLoginProvider } from "./contexts/UserLoginContext";
@@ -72,5 +73,4 @@ function App() {
     </UserLoginProvider>
   );
 }
-
 export default App;
