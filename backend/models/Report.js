@@ -26,7 +26,6 @@ const ReportSchema = new mongoose.Schema({
   },
   values: { type: Object, default: {} },
   analysis: { type: Array, default: [] },
-
   createdAt: {
     type: Date,
     default: Date.now,
