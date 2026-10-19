@@ -47,7 +47,6 @@ exports.searchUsers = async (req, res) => {
         $project: { name: 1, email: 1, _id: 1 },
       },
     ]);
-
     res.json(users);
   } catch (err) {
     console.error("Search error:", err);
