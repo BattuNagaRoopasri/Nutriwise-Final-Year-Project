@@ -106,7 +106,6 @@ const Demo = () => {
               </div>
             ))}
           </div>
-          
           <div className="carousel-controls">
             {demoScreens.map((_, index) => (
               <button
