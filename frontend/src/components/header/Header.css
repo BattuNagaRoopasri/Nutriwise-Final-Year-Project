@@ -176,7 +176,6 @@
     font-size: 1.25rem;
   }
 }
-
 @media (max-width: 480px) {
   .nav-container {
     padding: 0 0.75rem;
