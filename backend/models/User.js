@@ -36,7 +36,6 @@ const UserSchema = new mongoose.Schema({
     default: Date.now,
   },
 });
-
 // Pre-save hook to hash password
 UserSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
