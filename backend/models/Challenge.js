@@ -25,7 +25,6 @@ const challengeSchema = new mongoose.Schema({
         default: 10,
     },
 }, { timestamps: true });
-
 const Challenge = mongoose.model("Challenge", challengeSchema);
 
 module.exports = Challenge;
