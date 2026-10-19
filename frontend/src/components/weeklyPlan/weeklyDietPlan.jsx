@@ -142,7 +142,6 @@ export default function WeeklyDietPlan() {
 
             <h3>Instructions</h3>
             <p>{selectedMeal.instructions}</p>
-
             <button className="close-btn" onClick={closeModal}>
               Close
             </button>
