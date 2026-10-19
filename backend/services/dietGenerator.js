@@ -101,7 +101,6 @@ exports.generateWeeklyPlan = async function generateWeeklyPlan(
   for (const day of days) {
     week[day] = await generateDayPlan(userDetails, patterns, usedFoods);
   }
-
   const groceryList = buildGroceryList(week);
 
   return {
