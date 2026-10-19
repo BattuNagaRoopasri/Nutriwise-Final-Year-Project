@@ -192,7 +192,6 @@ const Challenges = () => {
 
                 <div className="challenges-sidebar">
                     <CalendarStreak completedDates={history} />
-
                     {/* Placeholder for future sidebar items like global leaderboard */}
                     <div className="sidebar-promo">
                         <h4>Keep it up! 🔥</h4>
@@ -203,4 +202,5 @@ const Challenges = () => {
         </div>
     );
 };
+
 export default Challenges;
