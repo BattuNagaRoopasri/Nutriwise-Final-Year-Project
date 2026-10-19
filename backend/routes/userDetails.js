@@ -51,7 +51,6 @@ router.post("/", protect, async (req, res) => {
     res.status(500).json({ message: "Failed to save details. Please try again." });
   }
 });
-
 // GET: Fetch current user details
 router.get("/", protect, async (req, res) => {
   try {
