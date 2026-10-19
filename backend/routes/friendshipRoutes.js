@@ -8,7 +8,6 @@ const {
   getSuggestions,
   sendRequest
 } = require("../controllers/friendshipController");
-
 // Route to get a user's list of accepted friends
 router.get("/friends/:userId", getFriends);
 
