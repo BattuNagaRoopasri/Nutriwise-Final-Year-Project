@@ -15,7 +15,6 @@ const FoodSchema = new mongoose.Schema({
   protein_g: Number,
   carbs_g: Number,
   fat_g: Number,
-
   // Health tags
   diabetic_friendly: Boolean,
   heart_friendly: Boolean,
