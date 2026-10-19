@@ -15,5 +15,4 @@ router.post("/", createAppointment);
 
 // Delete an appointment by its ID
 router.delete("/:id", deleteAppointment);
-
 module.exports = router;
