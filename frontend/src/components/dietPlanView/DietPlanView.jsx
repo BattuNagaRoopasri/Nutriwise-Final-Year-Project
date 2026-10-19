@@ -37,7 +37,6 @@ export default function DietPlanView({ dietPlan }) {
           </div>
         </div>
       ))}
-
       {avoidList?.length > 0 && (
         <div className="avoid-card">
           <h3>Foods to Avoid</h3>
