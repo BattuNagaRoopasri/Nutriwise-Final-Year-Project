@@ -65,7 +65,6 @@ function buildMealPlan(foods, calorieTarget) {
   const breakfast = foods.filter(f => f.meal === "breakfast").slice(0, 2);
   const lunch = foods.filter(f => f.meal === "lunch").slice(0, 3);
   const dinner = foods.filter(f => f.meal === "dinner").slice(0, 3);
-
   return {
     calorieTarget,
     meals: { breakfast, lunch, dinner }
