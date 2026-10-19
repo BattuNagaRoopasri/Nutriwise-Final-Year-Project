@@ -30,7 +30,7 @@ const challengeRoutes = require("./routes/challengeRoutes");
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://nutriwise-smoky.vercel.app",
   credentials: true,
 }));
 
@@ -51,7 +51,6 @@ app.use("/api/appointments", appointmentRoutes);
 app.use("/api/diet", dietRoutes);
 app.use("/api/lab-analysis", labAnalysisRoutes);
 app.use("/api/challenges", challengeRoutes);
-
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
