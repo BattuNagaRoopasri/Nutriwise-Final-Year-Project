@@ -28,5 +28,4 @@ const userDetailsSchema = new mongoose.Schema({
     dietaryPreference: String,
   }
 }, { timestamps: true });
-
 module.exports = mongoose.models.UserDetails || mongoose.model("UserDetails", userDetailsSchema);
