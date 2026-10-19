@@ -20,7 +20,6 @@ const ProgressBar = ({ duration, type }) => {
 
         return () => clearInterval(interval);
     }, [duration]);
-
     return (
         <div className={`progress-bar-container progress-bar-${type}`}>
             <div
