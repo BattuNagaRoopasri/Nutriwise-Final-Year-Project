@@ -3,7 +3,6 @@ const multer = require('multer');
 
 // Define the storage strategy to store files in memory
 const storage = multer.memoryStorage();
-
 // Create the upload middleware instance
 const upload = multer({
     storage: storage,
