@@ -122,7 +122,6 @@ const UploadReport = () => {
           />
           {file && <p className="file-info">{file.name}</p>}
         </div>
-
         <button
           type="submit"
           className="report-upload-btn"
