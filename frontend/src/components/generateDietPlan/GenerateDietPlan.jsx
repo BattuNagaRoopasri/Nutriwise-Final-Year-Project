@@ -67,7 +67,6 @@ export default function GenerateDietPlan() {
             </option>
           ))}
         </select>
-
         <button onClick={handleGenerate} disabled={loading}>
           {loading ? "Generating..." : "Generate Diet Plan"}
         </button>
