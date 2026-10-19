@@ -44,7 +44,6 @@ exports.generateDiet = async (req, res) => {
     res.status(500).json({ msg: "Server error", error: err.message });
   }
 };
-
 exports.getLatestDietPlan = async (req, res) => {
   try {
     const plan = await DietPlan.findOne({ user: req.user.id }).sort({
