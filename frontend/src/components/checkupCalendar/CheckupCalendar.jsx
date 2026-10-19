@@ -96,7 +96,7 @@ const CheckupCalendar = () => {
         startAccessor="start"
         endAccessor="end"
         style={{ height: "80vh" }}
-        selectable 
+        selectable // Allows you to click and drag to select a slot
         onSelectSlot={handleSelectSlot}
         onSelectEvent={handleSelectEvent}
         view={view}
@@ -127,5 +127,6 @@ const CheckupCalendar = () => {
     </div>
   );
 };
+
 
 export default CheckupCalendar;
