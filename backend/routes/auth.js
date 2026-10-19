@@ -25,7 +25,7 @@ router.get(
   (req, res) => {
     const accessToken = generateAccessToken(req.user._id);
     res.redirect(
-      `http://localhost:5173/profile?token=${accessToken}&login=google`
+      `https://nutriwise-smoky.vercel.app/profile?token=${accessToken}&login=google`
     );
   }
 );
@@ -180,7 +180,6 @@ router.post("/refresh-token", async (req, res) => {
   if (!refreshToken) {
     return res.status(401).json({ message: "No refresh token" });
   }
-
   try {
     const decoded = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET);
 
