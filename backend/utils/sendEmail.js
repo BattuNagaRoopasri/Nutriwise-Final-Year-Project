@@ -7,7 +7,6 @@ const transporter = nodemailer.createTransport({
     pass: process.env.EMAIL_PASS,
   },
 });
-
 exports.sendOTPEmail = async (to, otp) => {
   await transporter.sendMail({
     from: `"NutriWise" <${process.env.EMAIL_USER}>`,
