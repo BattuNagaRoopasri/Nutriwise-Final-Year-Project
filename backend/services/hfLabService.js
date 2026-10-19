@@ -14,8 +14,6 @@ async function analyzeLabReport(imageUrl) {
       image: null,
       image_url: imageUrl,
     });
-
-
     // Gradio returns data in an array: [output1, output2, ...]
     // Your output is a JSON object, so it will be at index 0
     if (result.data && result.data.length > 0) {
