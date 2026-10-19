@@ -116,7 +116,6 @@
 .btn.reject { background-color: #e4e6eb; color: #050505; }
 .btn.reject:hover { background-color: #dcdde1; }
 
-
 /* ---- Responsive Design for Mobile ---- */
 @media (max-width: 900px) {
   .card-container {
