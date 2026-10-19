@@ -24,7 +24,6 @@ Rules:
 - No diagnosis or medicines.
 - Keep it simple but medically sound.
 `;
-
   const completion = await groq.chat.completions.create({
     model: "llama-3.1-8b-instant",
     messages: [{ role: "user", content: prompt }],
