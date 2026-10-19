@@ -5,6 +5,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     font-family: 'Inter', sans-serif;
 }
+
 .calendar-header {
     display: flex;
     justify-content: space-between;
@@ -85,7 +86,6 @@
     justify-content: center;
     gap: 10px;
 }
-
 .streak-count {
     font-size: 1.5rem;
     font-weight: 800;
