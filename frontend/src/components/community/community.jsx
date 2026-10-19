@@ -53,7 +53,6 @@ const Community = () => {
             ))}
           </div>
         </div>
-        
       </div>
     </section>
   );
