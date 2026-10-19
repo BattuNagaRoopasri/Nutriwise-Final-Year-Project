@@ -21,7 +21,6 @@ const CTA = () => {
               <div className="health-icon">💊</div>
               <div className="health-icon">📊</div>
             </div>
-            
             <h2 className="cta-title">Ready to take control of your health?</h2>
             <p className="cta-subtitle">
               Join thousands of users who are already transforming their health journey with AI-powered insights
