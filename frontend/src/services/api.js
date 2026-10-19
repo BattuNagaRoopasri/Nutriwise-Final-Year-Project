@@ -4,6 +4,7 @@ import api from "../api/axios";
 export const fetchFriends = (userId) => {
   return api.get(`/friendships/friends/${userId}`);
 };
+
 export const fetchReceivedRequests = (userId) => {
   return api.get(`/friendships/requests/received/${userId}`);
 };
@@ -18,7 +19,7 @@ export const fetchSuggestions = (userId) => {
 
 export const verifyEmailOTP = (userId, otp) => {
   return axios.post(
-    "http://localhost:5000/api/auth/verify-email",
+    "https://nutriwise-cmpb.onrender.com/api/auth/verify-email",
     { userId, otp },
     { withCredentials: true }
   );
@@ -49,7 +50,6 @@ export const sendFriendRequest = (requesterId, recipientId) => {
 export const getAppointments = (userId) => {
   return api.get(`/appointments/${userId}`);
 };
-
 /**
  * Creates a new appointment.
  * @param {object} appointmentData - { title, start, end, user, notes }
