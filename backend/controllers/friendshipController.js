@@ -167,7 +167,6 @@ exports.sendRequest = async (req, res) => {
       requester: requesterId,
       recipient: recipientId,
     });
-
     await newFriendship.save();
 
     res.status(201).json({ message: "Friend request sent successfully." });
